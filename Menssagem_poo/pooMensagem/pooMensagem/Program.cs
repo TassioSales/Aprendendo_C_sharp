@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace pooMensagem
 {
-    internal class Mensagem
+    internal class Program
     {
-        public String TextoMensagem;
-
-        public void ExibirMensagem()
+        static void Main(string[] args)
         {
-            Console.WriteLine(this.TextoMensagem);
-
-      
+            Console.WriteLine("Ola mundo");
+            Console.ReadLine();
         }
     }
 }

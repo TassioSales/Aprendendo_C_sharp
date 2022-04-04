@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{25AA121D-9A3C-4C9B-B56D-6EB2D211DFF0}</ProjectGuid>
+    <ProjectGuid>{AD16094C-836F-4FBF-B6C6-9B40949DA518}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>pooMensagem</RootNamespace>
     <AssemblyName>pooMensagem</AssemblyName>
@@ -43,10 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mensagem.cs" />
-    <Compile Include="..\..\..\..\OneDrive - CESB - Centro de Educação Superior de Brasilia LTDA\Documentos\GitHub\Aprendendo_C_sharp\Program.cs">
-      <Link>Program.cs</Link>
-    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
