@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace pooMensagem
 {
-    internal class Mensagem
+    public class Mensagem
     {
+
+        private String TextoMensagem;
+        public void ExibirMensagem()
+        {
+            Console.WriteLine(this.TextoMensagem);
+        }
+
+        public string getTextoMensagem() 
+        { 
+            return this.TextoMensagem; 
+        }
+
+        public void setTextoMensagem(String valor) 
+        { 
+            this.TextoMensagem = valor.ToUpper();
+        
+        }
     }
 }
